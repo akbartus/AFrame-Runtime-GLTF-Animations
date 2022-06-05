@@ -1,0 +1,18 @@
+#animationControls {
+    z-index: 2;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.buttonC {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
