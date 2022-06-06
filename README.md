@@ -14,4 +14,4 @@ Animations can be downloaded separately from <a href="https://www.mixamo.com/#/"
 The project is powered by AFrame and Three.js
 
 ### **Demo**
-To see the application at work: [Demo application](https://gltf-exporter.glitch.me/)
+To see the application at work: [Demo application](https://gltfanimations-runtime.glitch.me/)
