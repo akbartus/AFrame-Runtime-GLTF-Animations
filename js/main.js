@@ -41,10 +41,7 @@
  function doAnimation() {
      var link = "animations/" + selectedAnimation + ".glb";
      loader.load(link, function (gltf) {
-         var newModel = gltf.scene;
-         var mixer = new THREE.AnimationMixer(newModel);
-         var currentAnimation = mixer.clipAction(gltf.animations[0]);
-         objectMesh.animations[0] = currentAnimation._clip;
+         objectMesh.animations[0] = gltf.animations[0];
          model.setAttribute('animation-mixer', "clip:" + selectedAnimation + "; crossFadeDuration:1;");
      });
  }
